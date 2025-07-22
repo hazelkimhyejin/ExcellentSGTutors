@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #1E2A54; /* Deeper Navy for luxury */
+  padding: 10px 0;
+  box-shadow: 0 2px 6px rgba(212, 160, 23, 0.2); /* Gold gradient shadow */
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.logo img {
+  height: 40px; /* Adjustable based on logo size */
+  width: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1; /* Allows links to take remaining space */
+}
+
+.nav-links li {
+  margin: 0 25px;
+}
+
+.nav-links a {
+  color: #D4A017; /* Champagne Gold for refined wealth */
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links a:hover {
+  color: #2E8B57; /* Emerald Green for exclusivity */
+  text-shadow: 0 2px 4px rgba(46, 139, 87, 0.3);
+}
