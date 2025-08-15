@@ -3,11 +3,11 @@
   margin: 0 auto;
   padding: 20px;
   text-align: center;
-  min-height: 100vh; /* Full viewport height */
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center vertically */
-  align-items: center; /* Center horizontally within max-width */
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -21,17 +21,17 @@ h2 {
 
 p {
   font-size: 16px;
-  color: #7f8c8d;
+  color: #000000; /* Changed from #7f8c8d to black for better readability */
 }
 
 iframe {
   margin: 20px 0;
-  max-width: 100%; /* Ensure iframe fits within container */
+  max-width: 100%;
 }
 
 img {
   margin: 20px 0;
-  max-width: 100%; /* Ensure image fits */
+  max-width: 100%;
 }
 
 button {
