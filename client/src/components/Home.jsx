@@ -23,7 +23,7 @@ import React, { useState } from 'react';
             <h2>Step 1: Register Your Interest</h2>
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSdT6bOzjvqa94L8dAkpGGHw45taEPGVbRstpdZ3L9pg1jDm2Q/viewform?embedded=true"
-              width="640"
+              width="3080"
               height="2014"
               frameBorder="0"
               marginHeight="0"
